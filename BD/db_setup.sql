@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 05-07-2024 a las 02:04:13
+-- Tiempo de generación: 05-07-2024 a las 05:24:49
 -- Versión del servidor: 10.1.32-MariaDB
 -- Versión de PHP: 5.6.36
 
@@ -41,9 +41,9 @@ CREATE TABLE `articles` (
 --
 
 INSERT INTO `articles` (`id`, `title`, `content`, `author`, `publication_date`) VALUES
-(1, 'First Article', 'Content of the first article.', 'Author 1', '2024-07-04 20:03:14'),
-(2, 'Second Article', 'Content of the second article.', 'Author 2', '2024-07-04 20:03:14'),
-(3, 'Third Article', 'Content of the third article.', 'Author 3', '2024-07-04 20:03:14');
+(1, 'El histórico jugador de \"La Roja\" que dejaría su club y asoma como candidato para llegar a Colo Colo', 'La Selección Chilena terminó su travesía por Estados Unidos, al quedar eliminada de la fase de grupos de la Copa América, luego de empatar contra Canadá. De esta manera, los dirigidos por Ricardo Gareca ahora piensan en las clasificatorias.\r\n\r\nUno de los jugadores que podría decir presente en aquella competencia es Mauricio Isla, que dicho sea de paso, dejaría su actual club, Independiente de Avellaneda, para abordar nuevos desafíos.', 'Diego Alonzo', '2024-07-04 18:11:00'),
+(2, 'Gimnasia rítmica en París 2024: Quién es la gran favorita para ganar el oro y dónde podrás seguir la competencia', 'La gimnasia rítmica será uno de los deportes más atractivos en los Juegos Olímpicos de París 2024, los cuales se desarrollará en la capital francesa entre el 26 de julio y el 11 de agosto.\r\n\r\nEl origen de esta disciplina olímpica\r\nA finales del siglo XIX, esta especialidad consistía en una especie de gimnasia en grupo con algunos elementos coreográficos.', 'AFP', '2024-07-04 16:58:00'),
+(3, 'Macarena Pérez se suma al Team Chile para los Juegos Olímpicos París 2024', 'El Team Chile continúa sumando representantes en los Juegos Olímpicos de París 2024, pues este jueves se oficializó la clasificación de Macarena Pérez en el ciclismo BMX Freestyle.\r\n\r\nLa deportista nacional, quien fue subcampeona mundial en 2019 y medallista de plata en los Panamericanos de Santiago 2023, consiguió el boleto a la cita de los cinco anillos tras quedarse con uno de los 12 cupos que tiene su disciplina para el mega evento deportivo.', 'Aton', '2024-07-04 17:19:00');
 
 --
 -- Índices para tablas volcadas
