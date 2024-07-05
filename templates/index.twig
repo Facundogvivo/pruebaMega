@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Site</title>
+    <!-- GA4 Script -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=404665878"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'GA_MEASUREMENT_ID');
+    </script>
+</head>
+<body>
+    <h1>News Articles</h1>
+    {% for article in articles %}
+        <article>
+            <h2>{{ article.title }}</h2>
+            <p>{{ article.content }}</p>
+            <p><small>By {{ article.author }} on {{ article.publication_date }}</small></p>
+        </article>
+    {% endfor %}
+    <!-- Embedded Video -->
+    <iframe width="560" height="315" src="https://www.youtube.com/watch?v=eLuUsJUPG4I" frameborder="0" allowfullscreen></iframe>
+</body>
+</html>

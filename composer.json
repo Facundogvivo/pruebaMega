@@ -1,0 +1,20 @@
+{
+  "name": "meganews/news-app",
+  "description": "A simple news application using PHP, HTML, CSS, JavaScript, and MySQL.",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Meganews\\NewsApp\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Facundo Gonzalez Vivo",
+      "email": "facundo.gvivo@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "twig/twig": "^3.0"
+  }
+}
