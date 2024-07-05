@@ -5,11 +5,6 @@ $user = 'root';
 $pass = '';
 $charset = 'utf8mb4';
 
-// $host = 'localhost';
-// $db = 'news_db';
-// $user = 'cpl94434';
-// $pass = 'yKKOqIzfLDXLJwFDVMHq';
-// $charset = 'utf8mb4';
 
 $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
 $options = [
